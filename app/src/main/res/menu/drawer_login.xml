@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/beranda"
+            android:title="Home" />
+        <!--<item-->
+            <!--android:id="@+id/pesan"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Pesan" />-->
+        <item
+            android:id="@+id/belanjaan"
+            android:title="Update Belanjaan" />
+        <item
+            android:id="@+id/transaksi"
+            android:title="Belanjaan" />
+        <!--<item-->
+            <!--android:id="@+id/pengaturan"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Pengaturan" />-->
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+    </group>
+</menu>
